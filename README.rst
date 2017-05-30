@@ -18,7 +18,7 @@ Usage
   
 The following is a full example of using MeshParser and Mesh2Ex together::
 
-  from meshparser import parser
+  from meshparser.parser import MeshParser
   from mesh2ex.mesh2ex import convert
   
   p = parser()
