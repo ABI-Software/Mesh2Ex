@@ -10,7 +10,7 @@ Usage
 
 ::
 
-  from mesh2ex import convert
+  from mesh2ex.mesh2ex import convert
 
   # The convert function takes as an input mesh a dict with two keys: 'nodes', and 'elements'  these two keys are given the data taken from a MeshParser Parser class.
   # This function has two optional parameters: style_old, for working with older versions of ex format (currently unused); define_faces, this parameter will additionally define the face elements of higher order elements to surfaces will be visible immediately when creating a surface graphic.
@@ -19,7 +19,7 @@ Usage
 The following is a full example of using MeshParser and Mesh2Ex together::
 
   from meshparser import parser
-  from mesh2ex import convert
+  from mesh2ex.mesh2ex import convert
   
   p = parser()
   p.parse('file/to/parse.stl')
